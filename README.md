@@ -51,9 +51,8 @@ Time:              O(N) forward passes             O(K) forward passes, K ≈ 5-
 ## Setup
 
 ```bash
-uv venv && source .venv/bin/activate
-uv pip install -r requirements.txt
-python scripts/download_refcoco.py
+uv sync
+uv run python scripts/download_refcoco.py
 ```
 
 ## Project Structure
