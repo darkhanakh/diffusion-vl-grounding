@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data & checkpoints
+data/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# Wandb
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace cache
+*.cache
